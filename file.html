@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Unveiling Event</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="hero">
+        <div class="container">
+            <h1>Welcome to the Future of Innovation</h1>
+            <p>Join us for the grand unveiling of our latest product</p>
+            <button class="cta-button" onclick="scrollToSection('details')">Learn More</button>
+        </div>
+    </header>
+
+    <section id="details" class="details">
+        <div class="container">
+            <h2>Event Details</h2>
+            <p>We're excited to introduce our new groundbreaking product that will revolutionize the industry.</p>
+            <ul>
+                <li><strong>Date:</strong> June 04, 2024</li>
+                <li><strong>Time:</strong> 10:00 AM - 3:00 PM</li>
+                <li><strong>Location:</strong> Tech Conference Hall, Hyderabad</li>
+            </ul>
+            <button class="cta-button" onclick="scrollToSection('features')">Discover Features</button>
+        </div>
+    </section>
+
+    <section id="features" class="features">
+        <div class="container">
+            <h2>Key Features</h2>
+            <div class="feature-grid">
+                <div class="feature-item">
+                    <img src="C:\Users\krish\Downloads\innovation.jpg" alt="Feature 1">
+                    <h3>Innovative Design</h3>
+                    <p>Experience the sleek and modern design that sets a new standard.</p>
+                </div>
+                <div class="feature-item">
+                    <img src="C:\Users\krish\Downloads\Advanced Technology.jpg" alt="Feature 2">
+                    <h3>Advanced Technology</h3>
+                    <p>Equipped with the latest advancements to deliver exceptional performance.</p>
+                </div>
+                <div class="feature-item">
+                    <img src="C:\Users\krish\Downloads\Userfriendly.png" alt="Feature 3">
+                    <h3>User-Friendly Interface</h3>
+                    <p>Intuitive and easy to use, ensuring a seamless experience.</p>
+                </div>
+            </div>
+            <button class="cta-button" onclick="scrollToSection('register')">Register Now</button>
+        </div>
+    </section>
+
+    <section id="register" class="register">
+        <div class="container">
+            <h2>To Register!!!</h2>
+            <p>Don't miss out on this exclusive event. Reserve your spot today!</p>
+            <form id="registrationForm">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <button type="submit" class="cta-button">Register</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Veritech IT Services. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

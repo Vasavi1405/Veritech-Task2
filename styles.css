@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.hero {
+    background: url('hero.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:black;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin: 50px;
+}
+
+.hero p {
+    font-size: 1.5rem;
+}
+
+.cta-button {
+    background-color: purple;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: gold;
+}
+
+.details, .features, .register {
+    padding: 100px 0;
+}
+
+.details h2, .features h2, .register h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.feature-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.feature-item {
+    width: 30%;
+    margin-bottom: 30px;
+}
+
+.feature-item img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.feature-item h3 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.feature-item p {
+    font-size: 1rem;
+}
+
+.register form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.register input {
+    padding: 10px;
+    margin: 10px 0;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
